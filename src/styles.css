@@ -1,0 +1,25 @@
+html {
+  color-scheme: dark;
+}
+
+button {
+  cursor: pointer;
+}
+
+.App {
+  font-family: sans-serif;
+  padding: 1rem;
+  max-width: 200px;
+}
+
+.App > * + * {
+  margin-top: 16px;
+}
+
+.item {
+  border: 1px solid #ddd;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+}
